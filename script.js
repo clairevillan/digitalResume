@@ -1,8 +1,8 @@
 const img = document.getElementById("pfp");
 
 let toggle = true;
-let slideIndex = 1;
-showSlides(slideIndex);
+// let slideIndex = 1;
+// showSlides(slideIndex);
 
 img.addEventListener('click', function(){
 
@@ -11,7 +11,7 @@ img.addEventListener('click', function(){
     if(toggle){
         img.src = "./resources/images/pfp.jpg";
     } else {
-        img.src = "./resources/images/siopao.jfif";
+        img.src = "./resources/images/siopao.jpg";
     }
     
 })
