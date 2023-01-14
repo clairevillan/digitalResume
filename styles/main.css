@@ -138,10 +138,34 @@ img{cursor: pointer}
     
 }
 
-/* adding responsiveness*/
-@media(max-width:600px){
-    #wrapper--hero{
-        flex-direction: column;
-        
-    }
+.gallery--container{
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* hiding images by default */
+.slides{
+    display: none;
+}
+
+.prev, .next{
+    cursor: pointer;
+    top: 50%;
+    width: auto;
+    font-weight: bold;
+    font-size: 18px;
+    user-select: none;
+}
+
+.next{
+    right:0;
+
+}
+
+.caption{
+    color:indigo;
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
 }
