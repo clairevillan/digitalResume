@@ -11,13 +11,13 @@ img.addEventListener('click', function(){
     if(toggle){
         img.src = "./resources/images/pfp.jpg";
     } else {
-        img.src = "./resources/images/siopao.jpg";
+        img.src = "./resources/images/siopao.jfif";
     }
     
 })
 
 // controlling next and previous actions
-function plusSlides(n){
-    showSlides(slideIndex += n);
-}
+// function plusSlides(n){
+//     showSlides(slideIndex += n);
+// }
 
