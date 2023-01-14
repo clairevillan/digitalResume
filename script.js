@@ -11,7 +11,7 @@ img.addEventListener('click', function(){
     if(toggle){
         img.src = "./resources/images/pfp.jpg";
     } else {
-        img.src = "./resources/images/siopao.jfif";
+        img.src = "./resources/images/siopao.jpg";
     }
     
 })
