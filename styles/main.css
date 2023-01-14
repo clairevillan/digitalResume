@@ -79,6 +79,8 @@ li{
     height: 100%;
 }
 
+img{cursor: pointer}
+
 #email{
     color: var(--mainTextColor);
 }
